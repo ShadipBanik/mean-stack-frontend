@@ -24,9 +24,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/vendor/fontawesome-free/css/all.min.css",
+              "src/assets/vendor/datatables/dataTables.bootstrap4.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/css/ruang-admin.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "node_modules/datatables.net/js/jquery.dataTables.min.js",
+              "src/assets/vendor/datatables/dataTables.bootstrap4.min.js",  
+               "src/assets/js/ruang-admin.js", 
+               "src/assets/vendor/chart.js/Chart.min.js",  
+               "src/assets/js/demo/chart-area-demo.js"  
+            ]
           },
           "configurations": {
             "production": {
@@ -89,7 +101,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         },
         "lint": {
